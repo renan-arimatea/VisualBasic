@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wx9MG9Qw7ioLKC3Jptjh6J1Pv2r05uRAh2xFf3A2nV5syxGIj59GSmzCrdoIJXANZx1R943YjdsSUv/bUx0vbg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\renan\\OneDrive\\Documentos\\Programação\\VisualBasic\\SistemaClinicaVeterinaria\\SistemaClinicaVeterinaria\\SistemaClinicaVeterinaria.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renan\\.nuget\\packages\\mysqlconnector\\2.1.8\\mysqlconnector.2.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
