@@ -22,8 +22,12 @@ Module Program
 
         Dim media As Double = (nota1 + nota2 + nota3 + nota4) / 4
 
-        If media >= 6 Then
+        If media >= 7 Then
             Console.WriteLine("Aluno Aprovado com média: " & media)
+
+        ElseIf media >= 6 And media <= 6.9 Then
+            Console.WriteLine("Aluno me Recuperação com média: " & media)
+
         Else
             Console.WriteLine("Aluno Reprovado com média: " & media)
         End If
@@ -31,8 +35,11 @@ Module Program
 
         Select Case media
 
-            Case >= 6
+            Case >= 7
                 Console.WriteLine("Parabéns, você pode curtir as suas merecidas férias!")
+
+            Case >= 6 And media <= 6.9
+                Console.WriteLine("Se prepare para o novo teste!")
 
             Case Else
                 Console.WriteLine("Nos vemos novamente ano que vem!")
