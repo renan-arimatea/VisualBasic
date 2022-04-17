@@ -25,6 +25,7 @@ Partial Class frmWindows
         Me.btnCancelar = New System.Windows.Forms.Button()
         Me.btnConfirmar = New System.Windows.Forms.Button()
         Me.btnNovoForm = New System.Windows.Forms.Button()
+        Me.btnPrivate = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnCancelar
@@ -49,12 +50,22 @@ Partial Class frmWindows
         '
         'btnNovoForm
         '
-        Me.btnNovoForm.Location = New System.Drawing.Point(225, 193)
+        Me.btnNovoForm.Location = New System.Drawing.Point(125, 188)
         Me.btnNovoForm.Name = "btnNovoForm"
-        Me.btnNovoForm.Size = New System.Drawing.Size(75, 23)
+        Me.btnNovoForm.Size = New System.Drawing.Size(114, 31)
         Me.btnNovoForm.TabIndex = 2
         Me.btnNovoForm.Text = "Novo Form"
         Me.btnNovoForm.UseVisualStyleBackColor = True
+        '
+        'btnPrivate
+        '
+        Me.btnPrivate.Location = New System.Drawing.Point(276, 188)
+        Me.btnPrivate.Name = "btnPrivate"
+        Me.btnPrivate.Size = New System.Drawing.Size(108, 31)
+        Me.btnPrivate.TabIndex = 3
+        Me.btnPrivate.TabStop = False
+        Me.btnPrivate.Text = "Private"
+        Me.btnPrivate.UseVisualStyleBackColor = True
         '
         'frmWindows
         '
@@ -63,6 +74,7 @@ Partial Class frmWindows
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.btnCancelar
         Me.ClientSize = New System.Drawing.Size(528, 288)
+        Me.Controls.Add(Me.btnPrivate)
         Me.Controls.Add(Me.btnNovoForm)
         Me.Controls.Add(Me.btnConfirmar)
         Me.Controls.Add(Me.btnCancelar)
@@ -77,4 +89,5 @@ Partial Class frmWindows
     Friend WithEvents btnCancelar As Button
     Friend WithEvents btnConfirmar As Button
     Friend WithEvents btnNovoForm As Button
+    Friend WithEvents btnPrivate As Button
 End Class

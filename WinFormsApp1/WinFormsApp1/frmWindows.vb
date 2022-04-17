@@ -18,4 +18,8 @@
         Dim frm As New frmNovoForm
         frm.ShowDialog(Me)
     End Sub
+
+    Private Sub btnPrivate_Click(sender As Object, e As EventArgs) Handles btnPrivate.Click
+        MessageBox.Show("Acesso Negado", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+    End Sub
 End Class
